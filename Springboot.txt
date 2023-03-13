@@ -1,0 +1,25 @@
+스프링은 자동으로 컴포넌트들을 구성할 수 있는 자동-구성 기능이 있어서 별도의 xml 구성이나 자바 구성이 없어도 된다. 
+따라서 자동-구성을 할 수 없을 경우에만 필요하다.
+
+자동-구성은 autowiring과 component scanning이라는 스프링 기법을 기반으로 한다.
+
+요즘은 자바 기반 구성에 중점
+
+스프링 initializr를 사용해서 애플리케이션의 초기설정을 할 수 있다.
+스프링 initializrs는 REST API를 사용하는 브라우저 기반의 웹 어플리케이션이며, 
+우리가 원하는 기능을 구현할 수 있는 스프링 프로젝트의 구조를 생성해준다.
+스프링 initializr를 사용하는 방법은 여러개가 있지만 이클립스를 사용한다면
+Spring Tool Suite IDE를 사용해서 새로운 프로젝트를 생성하는 것이 편리하다.
+
+1. start.spring.io의 웹 어플리케이션에서
+2. 명령행에서 curl 명령을 사용해서
+3. 명령행에서 스프링 부트 CLI(Command-Line Interface)를 사용해서
+4. Spring Tool Suite IDE를 사용해서 새로운 프로젝트를 생성할때 -> STS
+5. Intellij에서
+6. NetBeans IDE에서
+
+
+스프링 initializr에서는 JAR 패키징을 기본값으로 한다.
+
+스프링 부트 스타터(starter) 의존성, 이 의존성 항목들은 자체적으로 라이브러리 코드를 갖지 않고
+다른 라이브러리의 것을 사용한다. 
